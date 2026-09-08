@@ -53,7 +53,7 @@ Prioritise macro F1, class-wise precision and recall, the confusion matrix, and 
 
 **Decision support:** Helps frame which campaign and audience signals may be associated with email outcomes without overstating correlation as causation.
 
-## $1
+## Limitations
 
 - The repository contains a notebook workflow, not a deployed campaign-scoring service.
 - Results depend on the target definition, class balance, and preprocessing choices in the notebook.
