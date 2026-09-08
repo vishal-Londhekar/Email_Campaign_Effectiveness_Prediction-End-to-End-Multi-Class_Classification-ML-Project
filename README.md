@@ -43,6 +43,21 @@ Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, scikit-learn, imbalanced-lear
 
 Prioritise macro F1, class-wise precision and recall, the confusion matrix, and a clearly documented validation strategy. Do not describe the notebook as a production system unless a reusable training/inference pipeline and deployment artefacts are added.
 
+
+## Business problem and decision
+
+### Business problem
+Marketing teams need to understand which campaign and audience factors are associated with different email outcomes. If campaign performance is evaluated only with overall accuracy, the team may overlook weak performance for smaller but commercially important outcome classes.
+
+### Analyst question
+Which features help distinguish campaign outcomes, how balanced are the classes, and which errors would be most costly for a marketing team?
+
+### Decision supported
+CRM and campaign teams can use the analysis to prioritise audience investigation, improve campaign design, and define experiments for targeting or message optimisation. The model should support decisions, not replace campaign testing.
+
+### Potential success measure
+Evaluate macro F1, class-wise precision and recall, confusion matrices, calibration, and incremental campaign results from controlled experiments.
+
 ## Analyst value
 
 > **Portfolio focus:** Marketing Analytics · Campaign Performance · Classification Insights
