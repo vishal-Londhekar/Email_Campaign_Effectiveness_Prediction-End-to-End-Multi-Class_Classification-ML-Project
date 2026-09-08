@@ -1,5 +1,7 @@
 # Email Campaign Effectiveness Prediction
 
+> **Data Analyst & Business Intelligence Analyst portfolio project**
+
 A Python machine-learning notebook for analysing email-campaign outcomes and building a multi-class classification workflow.
 
 ## Project objective
@@ -41,7 +43,17 @@ Python, pandas, NumPy, Matplotlib, Seaborn, SciPy, scikit-learn, imbalanced-lear
 
 Prioritise macro F1, class-wise precision and recall, the confusion matrix, and a clearly documented validation strategy. Do not describe the notebook as a production system unless a reusable training/inference pipeline and deployment artefacts are added.
 
-## Limitations
+## Analyst value
+
+> **Portfolio focus:** Marketing Analytics · Campaign Performance · Classification Insights
+
+**Stakeholder lens:** Marketing managers, campaign owners, CRM teams, and growth analysts.
+
+**Skills demonstrated:** Data preparation, multi-class classification, class-imbalance awareness, model comparison, explainability, and class-wise performance evaluation.
+
+**Decision support:** Helps frame which campaign and audience signals may be associated with email outcomes without overstating correlation as causation.
+
+## $1
 
 - The repository contains a notebook workflow, not a deployed campaign-scoring service.
 - Results depend on the target definition, class balance, and preprocessing choices in the notebook.
